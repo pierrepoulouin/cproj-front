@@ -1,0 +1,24 @@
+{
+  "name": "cproj-front",
+  "version": "1.0.0",
+  "description": "Typescript - jest - enzyme - parcel - react - react router - less/sass ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierrepoulouin/cproj-front.git"
+  },
+  "author": "Pierre Poulouin @Ll0yds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pierrepoulouin/cproj-front/issues"
+  },
+  "homepage": "https://github.com/pierrepoulouin/cproj-front#readme",
+  "devDependencies": {
+    "less": "^3.10.3",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.2"
+  }
+}
