@@ -2,6 +2,21 @@
 
 Front best practices - Typescript - jest - enzyme - parcel - react router - fetch / axios - less / sass | Dev - prod
 
+## How to build
+
+### For developement
+
+Get Node.js for your platform (https://nodejs.org/en/)
+Node is required only to build the project. It is not required to run it.
+
+1. `npm install`
+2. `npm run dev`
+
+### For production
+
+1. `npm install`
+2. `npm run build`
+
 #Architecture du front
 
 root

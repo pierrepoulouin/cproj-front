@@ -1,5 +1,25 @@
-alert("le js s'est bien loadé")
+// alert("Le js s'est bien loadé");
 
-function hello(word) {
-  word = 'coincoin'
-}
+// function hello(word) {
+//     alert(word);
+// }
+
+// function helloTS(word:string) {
+//     alert(word);
+// }
+
+// hello('Salut');
+// helloTS('salut');
+
+// J'importe React
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
+
+//On importe le composant App
+import App from './app'
+
+//On stock dans la variable MOUNT_NODE, l'élément HTML dans lequelle on va monter l'application REACT
+const MOUNT_NODE = document.getElementById('app')
+
+//ReactDOM va générer un DOM virtuel à partir de notre MOUNT_NODE
+ReactDOM.render(<App />, MOUNT_NODE)

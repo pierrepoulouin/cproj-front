@@ -4,8 +4,6 @@
 
 #Parcel build a dist folder
 dist/
-### Less ###
-*.less
 
 ### Node ###
 # Logs
